@@ -552,6 +552,7 @@ $ *********************************************************
    ..
 "EL1 South Wall (G.S1.E1)" = EXTERIOR-WALL   
    CONSTRUCTION     = "EL1 EWall Construction"
+   WIDTH            = 211.8
    LOCATION         = SPACE-V1
    ..
 "EL1 South Win (G.S1.E1.W1)" = WINDOW          
