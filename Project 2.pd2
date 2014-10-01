@@ -4,9 +4,10 @@ Proj   "Project 2"
    ProductCode = "eQUEST"
    WeatherFile = "CZ2\CZ06.bin"
    CreateDate = 1412169136
-   ModDate = 1412170934
+   ModDate = 1412171744
    LibraryFile = "eQ_Lib.dat"
    ActiveMode = 0
+   InputModule = 4
    InterfaceMode = 1
    AllowWizard = 1
    NotProjFile = "Project 2"
@@ -15,11 +16,11 @@ Proj   "Project 2"
    PreviousName = "Project 2"
    DetailedModelEdits = 1
    ProjTreeType[1] = 0
-   ProjTreeType[2] = 1
+   ProjTreeType[5] = 1
    ProjTreeID[1] = 10000
-   ProjTreeID[2] = 10100000
+   ProjTreeID[5] = 10480000
    ProjTreeLabel[1] = "Project:  'Project 2'"
-   ProjTreeLabel[2] = "EL1 South Wall (G.S1.E1)"
+   ProjTreeLabel[5] = "EL1 Sys1 (PSZ) (G.S1)"
    ..
 
 MainWiz   "Project 2"  
