@@ -1,0 +1,237 @@
+Proj   "Project 2"  
+   ProgramVersion = "eQUEST 3.65.7163"
+   BDBaseVersion = 25
+   ProductCode = "eQUEST"
+   WeatherFile = "CZ2\CZ06.bin"
+   CreateDate = 1412169136
+   ModDate = 1412169222
+   LibraryFile = "eQ_Lib.dat"
+   ActiveMode = 0
+   InterfaceMode = 1
+   AllowWizard = 1
+   NotProjFile = "Project 2"
+   InputUnitsType = "English"
+   OutputUnitsType = "English"
+   PreviousName = "Project 2"
+   ProjTreeType[1] = 0
+   ProjTreeID[1] = 10000
+   ProjTreeLabel[1] = "Project:  'Project 2'"
+   ..
+
+MainWiz   "Project 2"  
+   ProductCode = "eQUEST"
+   WizardType = "Design Development"
+   DebugID = 0
+   AllowCustWinDoor = 1
+   ScreenIDArrIdx = 0
+   State = "Los Angeles Area (CZ06)"
+   Location = "Los Angeles AP"
+   HVACDefaulted = 1
+   ..
+
+ShellWiz   "Bldg Envelope & Loads 1"  
+   NumMCZnGrps = 0
+   DiagLink = "Bldg Envelope & Loads 1 Diag Data"
+   ZoningCurrent = 1
+   AdiabaticCurrent = 1
+   ZoneGroupsOK = 1
+   DfltZnGrpName[1] = "EL1 Underground Areas"
+   DfltZnGrpName[2] = "EL1 Ground Floor Core"
+   DfltZnGrpName[3] = "EL1 Ground Floor Perimeter"
+   DfltZnGrpName[4] = "EL1 Typical Floor(s) Core"
+   DfltZnGrpName[5] = "EL1 Typical Floor(s) Perimeter"
+   DfltZnGrpName[6] = "EL1 Top Floor Core"
+   DfltZnGrpName[7] = "EL1 Top Floor Perimeter"
+   DfltZnGrpName[8] = "EL1 Data Center"
+   CustomRoofZoning = -1
+   LastFootprint = 1
+   SkyZonesCurrent = 1
+   SkyltZones[1] = 1
+   SkyltZones[2] = 1
+   SkyltZones[3] = 1
+   SkyltZones[4] = 1
+   SkyltZones[5] = 1
+   SkyPosCurrent = 1
+   DayZonesCurrent[1] = 1
+   DayZonesCurrent[3] = 1
+   DayltZones[1] = 1
+   DayltZones[2] = 1
+   DayltZones[3] = 1
+   DayltZones[4] = 1
+   DayltZones[5] = 0
+   DayltZones[401] = 1
+   DayltZones[402] = 1
+   DayltZones[403] = 1
+   DayltZones[404] = 1
+   DayltZones[405] = 0
+   WinDoorCurrent = 1
+   DetailsCurrent = ( 1, 1, 1 )
+   BDLNumDayltCtrls[1] = 0
+   BDLNumDayltCtrls[2] = 0
+   BDLNumDayltCtrls[3] = 0
+   BDLNumDayltCtrls[4] = 0
+   BDLNumDayltCtrls[5] = 0
+   BDLNumDayltCtrls[401] = 0
+   BDLNumDayltCtrls[402] = 0
+   BDLNumDayltCtrls[403] = 0
+   BDLNumDayltCtrls[404] = 0
+   BDLNumDayltCtrls[405] = 0
+   OccShape[1] = "EL1 Occup Profile (S1)"
+   ILShape[1] = "EL1 InsLtg Profile (S1)"
+   ELDayShapes = ( "EL1 ExtLtg DayShape (Jan)", 
+                   "EL1 ExtLtg DayShape (Feb)", 
+                   "EL1 ExtLtg DayShape (Mar)", 
+                   "EL1 ExtLtg DayShape (Apr)", 
+                   "EL1 ExtLtg DayShape (May)", 
+                   "EL1 ExtLtg DayShape (Jun)", 
+                   "EL1 ExtLtg DayShape (Jul)", 
+                   "EL1 ExtLtg DayShape (Aug)", 
+                   "EL1 ExtLtg DayShape (Sep)", 
+                   "EL1 ExtLtg DayShape (Oct)", 
+                   "EL1 ExtLtg DayShape (Nov)", 
+                   "EL1 ExtLtg DayShape (Dec)" )
+   OEShape[1] = "EL1 OffEq Profile (S1)"
+   MiscShape[1] = "EL1 Misc Profile (S1)"
+   DHWShape[1] = "EL1 DHW Profile (S1)"
+   DaylitAreaCurrent[1] = 1
+   DaylitAreaCurrent[3] = 1
+   RoofZoneErrorCode = 4
+   ..
+
+ZnGrpWiz   "EL1 Ground Floor Core"  
+   ShortName = "GndCor"
+   ..
+
+ZnGrpWiz   "EL1 Ground Floor Perimeter"  
+   ShortName = "GndPrm"
+   ..
+
+ZnGrpWiz   "EL1 Top Floor Core"  
+   ShortName = "TopCor"
+   ..
+
+ZnGrpWiz   "EL1 Top Floor Perimeter"  
+   ShortName = "TopPrm"
+   ..
+
+ShapeWiz   "EL1 InsLtg Profile (S1)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Jan)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Feb)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Mar)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Apr)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (May)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Jun)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Jul)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Aug)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Sep)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Oct)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Nov)"  
+   ..
+
+DayShape   "EL1 ExtLtg DayShape (Dec)"  
+   ..
+
+ShapeWiz   "EL1 OffEq Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 Misc Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 DHW Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 Occup Profile (S1)"  
+   ..
+
+DiagData   "Bldg Envelope & Loads 1 Diag Data"  
+   ..
+
+HVACWiz   "HVAC System 1"  
+   ..
+
+DXCWWiz   "Water-Cooled DX System"  
+   ..
+
+WSECWWiz   "Wtr-Side Econo System"  
+   ..
+
+WLHPWiz   "WSHP System"  
+   ..
+
+GSHPWiz   "GSHP System"  
+   ..
+
+PrimWiz   "Primary HVAC Plant"  
+   ..
+
+DHWWiz   "DHW Plant 1"  
+   ..
+
+FacetColor   "By Wall Type"  
+   FacetType = "Walls"
+   ColorOption = "By Wall Type"
+   ..
+
+FacetColor   "By Construction"  
+   FacetType = "Walls"
+   ColorOption = "By Construction"
+   ..
+
+FacetColor   "Uniform"  
+   FacetType = "Windows"
+   ColorOption = "Uniform"
+   ..
+
+FacetColor   "By Glass Type"  
+   FacetType = "Windows"
+   ColorOption = "By Glass Type"
+   ..
+
+Light3D   "Light3D - Default"  
+   Type = "Default"
+   ..
+
+Light3D   "Light3D - User1"  
+   Type = "User Defined 1"
+   ..
+
+Light3D   "Light3D - User2"  
+   Type = "User Defined 2"
+   ..
+
+Light3D   "Light3D - User3"  
+   Type = "User Defined 3"
+   ..
+
+Light3D   "Light3D - User4"  
+   Type = "User Defined 4"
+   ..
+
+Light3D   "Light3D - User5"  
+   Type = "User Defined 5"
+   ..
+
+
+END_OF_FILE
