@@ -1519,7 +1519,7 @@ $ *********************************************************
    HEAT-SOURCE      = FURNACE
    ZONE-HEAT-SOURCE = NONE
    BASEBOARD-SOURCE = NONE
-   SIZING-RATIO     = 1.15
+   SIZING-RATIO     = 1.2
    HUMIDIFIER-TYPE  = NONE
    MAX-SUPPLY-T     = 120
    MIN-SUPPLY-T     = 55
